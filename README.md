@@ -121,8 +121,100 @@ The minimum donation amount to gain access to *Valbot Premium* is 7USD / 6EUR / 
 - Major optimization work
 ```
 
-
 ### Premium Changelog
+```
+2021-08-25
+
++ Added 2560 x 1440 support (should automatically detect your monitor, no input on your part needed)
++ Valbot restart has changed, unfortunately, it will leave cmd windows open which you will have to close after running the bot (this helps with finding error messages)
+- Disabled auto use online assets (you can re-enable it if you wish, instead it uses the images in "/assets/" folder)
+
+
+2021-07-02
+
++ Changed discord links and RPC
+
+
+2021-06-23 (2)
+
++ Rich Presence fixed when in game
+
+
+2021-06-23
+
++ Force close valbot hotkey (f5)
++ Hotkey information
++ Improved front end when entering Valbot
++ Very small bug fixes
+
+
+2021-06-20
+
++ Added text chat to anti afk
++ Changed assets used for Valbot premium (gold logo now)
++ Minor bug fixes
+
+
+2021-05-27
+
++ Improved rest cycle (should no longer crash if you set a long rest delay)
++ Bug fixes for latest Valorant update
++ Detects if you "false" entered a game (constant in queue checks when waiting for game)
++ Dont have to wait as long to pause the bot when anti afk is running
++ Optimized code in some places
+
+
+2021-05-15
+
++ Added option in menu to toggle discord rich presence
++ Added option to mute valorant when in a game (when actually IN the deathmatch game)
++ Added a safe cycle (bot will play for certain amount of time and then rest)
++ Reorganised menus (xp related options now have own submenu)
++ Some print functions have been rewritten
+
+2021-05-14
+
++ Fixed a bunch of bugs (should be stable now)
++ Detects invite screen errors
++ Detects when you get into a game and then get kicked
++ Now included the build name in webhook name (eg, b8 = build 8)
++ If GitHub servers are down, will fallback to the images in assets folder so bot wont crash
+
+
+2021-05-10
+
++ Improved the read me section in the main menu
++ Added an option to turn off Rich Presence (do this in the config by changing the booleans)\
++ Added a debug discord webhook
++ XP limiter now turns off the pc after the xp limit has been reached
++ Better restart process (no need for restart.py anymore)
++ Probably more that i forgot :)
+
+
+2021-05-07
+
++ Fixed target xp config write bug
++ Changed the format of the target xp webhook
+
+
+2021-05-04
+
++ Improved code some more
++ Improved target xp
+
+
+2021-04-30 
+
+- First release
+
++ Randomised mouse movement patterns [MUCH SAFER]
++ Ability to tag you in discord webhook channel for important updates
++ improved anti-afk movement system
++ Partial rewrite
+```
+
+
+### Changelog
 ```
 2021-07-02 :: Valbot-2.2.2
 
